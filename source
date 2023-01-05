@@ -1,0 +1,9 @@
+sources:
+Fastapi web: https://fastapi.tiangolo.com/
+HTTP request methods:https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+Pydantic fileds types: https://pydantic-docs.helpmanual.io/usage/types/
+HTTP status code:
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+https://http.cat/
+
+postgres data type: https://www.postgresql.org/docs/current/datatype.html
