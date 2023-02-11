@@ -1,5 +1,5 @@
 
-###Set up
+### Set up
 1. set up virtual environment
 ``py -3 -m venv venv``
 
@@ -18,15 +18,15 @@
 > main: the name of the file
 > app: the name of the fastapi instance
 
-###Path operation
+### Path operation
 [insert image here]
 order matters: fastapi will only look at the first matching function, so if there are two functions with the same name and same path, only the first one will run.
 
-###HTTP Request
+### HTTP Request
 GET: get dat from the api server
 POST: create contents/data on the api server
 
-###CRUD
+### CRUD
 The design of API need to follow the CRUD design rule
 Create: ``POST``
 Read: ``GET``
@@ -35,7 +35,7 @@ Delete: ``DELETE``
 
 ![image info](./slides/crud.png)
 
-###Object Relational Mapper(ORM)
+### Object Relational Mapper(ORM)
 - Layer of abstraction that sits between the database and us 
 - So that we no longer need to write SQL, ORM can convert our python to sql
 - With ORM we can:
@@ -44,14 +44,14 @@ Delete: ``DELETE``
 - Sqlalchemy: one of the most popular python ORMs
 - Sqlalchemy does not talk to the database directly, need an underlying driver to talk to the database
 
-###Schema/Pydantic Models VS SQLALCHEMY Models
+### Schema/Pydantic Models VS SQLALCHEMY Models
 - Schema models: define the structure of a request and a response
 ![image info](./slides/schema.png)
 - SQLALCHEMY Model: define the columns of our table within postgres
 ![image info](./slides/SQLALCHEMY.png)
 
 
-###JWT token:
+### JWT token:
 - not encrypted
 - components:
     - header
@@ -63,7 +63,7 @@ Delete: ``DELETE``
 - how it works:
 ![image info](./slides/JWT_token.png)
 
-###User Authentication
+### User Authentication
 - Authentication process
 ![image info](./slides/authentication_process.png)
 - Signature
